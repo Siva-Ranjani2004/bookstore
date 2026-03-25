@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db   # ✅ ADD THIS
+
+  backend:
+    build: ./backend
+    container_name: backend_app
+    ports:
+      - "4001:4001"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/bookstore
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: frontend_app
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:   # ✅ ADD THIS
