@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/Siva-Ranjani2004/bookstore.git'
+                git branch: 'main', url: 'https://github.com/Siva-Ranjani2004/bookstore.git'
             }
         }
 
