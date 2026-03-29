@@ -1,6 +1,6 @@
-# 📚 BookStore Application (MERN + Docker + Jenkins)
+#  BookStore Application (MERN + Docker + Jenkins)
 
-## 🚀 Project Overview
+## Project Overview
 
 This is a full-stack **BookStore web application** built using the **MERN stack (MongoDB, Express, React, Node.js)** and deployed using **Docker & Docker Compose**.
 
@@ -8,7 +8,7 @@ The project also includes a **CI/CD pipeline using Jenkins** to automate build a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -45,7 +45,7 @@ The project also includes a **CI/CD pipeline using Jenkins** to automate build a
 
 ---
 
-## 🧱 Project Structure
+##Project Structure
 
 ```
 bookstore/
@@ -150,13 +150,7 @@ mongodb://mongo:27017/bookstore
 
 ---
 
-## 👩‍💻 Author
-
-**Siva Ranjani**
-
----
-
-## ⭐ Acknowledgement
+## Acknowledgement
 
 This project was built as part of a DevOps learning journey integrating:
 
@@ -166,7 +160,7 @@ This project was built as part of a DevOps learning journey integrating:
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates:
 
